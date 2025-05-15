@@ -48,6 +48,38 @@
 
     <br>
 
+    <section class="hero teaser ">
+        <div class="hero-body">
+            <div class="container is-max-desktop has-text-centered">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered ">
+                        <h2 class="title is-2 publication-title has-text-centered">
+                            Learning Video Generation for Robotic Manipulation with Collaborative Trajectory Control
+                        </h2>
+                        <h2 class="title publication-title is-4 has-text-grey"> Anonymous Submission </h2>
+                        <h2 class="title publication-title is-5 has-text-grey"> Friendly Reminder: If the videos are
+                            loading slowly, you can download this page from our supplementary materials and view it
+                            locally by double-clicking the "index.html" file. </h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container" style="text-align: center; ">
+        <h2 class="title is-4" style="text-align: center;">Comparison with <span
+                    style="color: #4FACFA;">Baselines</span> (Tora, DragAnything, and IRASim)</h2>
+
+        <div id="cmp-gt-carousel-horizontal" class="carousel results-carousel">
+            <img id="overview" width="65%" src="./img/finecontrol_comp.png" />
+
+        </div>
+    </div>
+
+    <br>
+
     <section class="hero teaser">
         <div class="hero-body">
             <!-- Method. -->
@@ -69,7 +101,8 @@
                             precisely model the manipulation process, the controlled trajectory is decomposed into
                             sub-interaction phases: pre-interaction, interaction, and
                             post-interaction, associating each phase with object-specific latents (robotic arm latents
-                            in pre-/post-interaction phases and manipulated object latents in interaction, respectively). The
+                            in pre-/post-interaction phases and manipulated object latents in interaction,
+                            respectively). The
                             collaborative trajectory latent is then injected into plug-and-play motion injectors,
                             enabling the reasoning of video dynamics during generation.
 
