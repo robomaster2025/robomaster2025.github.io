@@ -46,6 +46,41 @@
 
 <body>
 
+    <br>
+
+    <section class="hero teaser">
+        <div class="hero-body">
+            <!-- Method. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-three-fifths" style=" margin-top: 30px; margin-bottom: 20px;">
+                        <h2 class="title is-3">Method</h2>
+                        <div class="content has-text-justified">
+
+
+                            <div class="hero-body" style="margin-top: 40px; margin-bottom: -30px;">
+                                <img id="overview" width="80%" src="./img/pipeline.png" />
+                            </div>
+                            Given an input image and a prompt, it generates a desired robotic
+                            manipulation video with the collaborative trajectory design. Specifically, it
+                            first encodes the object masks, including robotic arm and submissive object (acquired either
+                            from 1) Grounded-SAM or 2) user-defined brush mask) with the awareness of appearance and
+                            shape to obtain object latents for maintaining identity consistency in the video. To
+                            precisely model the manipulation process, the controlled trajectory is decomposed into
+                            sub-interaction phases: pre-interaction, interaction, and
+                            post-interaction, associating each phase with object-specific latents (robotic arm latents
+                            in pre-/post-interaction phases and manipulated object latents in interaction, respectively). The
+                            collaborative trajectory latent is then injected into plug-and-play motion injectors,
+                            enabling the reasoning of video dynamics during generation.
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="hero-body">
             <div class="columns is-two-fifths is-centered">
