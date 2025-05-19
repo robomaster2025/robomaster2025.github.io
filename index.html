@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./img/icon.png">
 
     <script src="./static/js/jquery-3.2.1.min.js"></script>
     <script src="./static/js/jquery.event.move.js"></script>
@@ -61,6 +62,16 @@
                             loading slowly, you can download this page from our supplementary materials and view it
                             locally by double-clicking the "index.html" file. </h2>
 
+                        <a href="https://huggingface.co/datasets/robomaster2025/RoboMaster"
+                            class="external-link button is-normal is-rounded is-dark">
+                            <span>Reproduce Website Results (All Demos)</span>
+                        </a>
+
+                        <a href="https://huggingface.co/datasets/robomaster2025/RoboMaster"
+                            class="external-link button is-normal is-rounded is-dark">
+                            <span>Benchmark Results & Evaluation</span>
+                        </a>
+
                     </div>
                 </div>
             </div>
@@ -72,7 +83,7 @@
         <h2 class="title is-4" style="text-align: center;"><span style="color: #4FACFA;">Core</span>: Decompose
             Interaction (Ours) vs Decompose Objects (Previous, e.g. Tora)</h2>
 
-        <video muted autoplay="autoplay" loop="loop" width="80%" preload controls>
+        <video muted autoplay="autoplay" loop="loop" width="85%" preload controls>
             <source src="./video/compair_ours_tora.mp4" type="video/mp4">
         </video>
 
@@ -91,6 +102,11 @@
         <h2 class="title is-4" style="text-align: center;">Robotic Manipulation on <span style="color: #4FACFA;">Diverse
                 Out-of-Domain Objects</span>
         </h2>
+
+        <video muted autoplay="autoplay" loop="loop" width="80%" preload controls>
+            <source src="./video/diverse_objects.mp4" type="video/mp4">
+        </video>
+
     </div>
 
     <br>
@@ -116,19 +132,13 @@
         </div>
 
         <br>
-        <h2 class="title is-5" style="text-align: center;">(1) Bridge V2 Benchmark
-        </h2>
 
         <video muted autoplay="autoplay" loop="loop" width="70%" preload controls>
             <source src="./video/main_compair_bridge.mp4" type="video/mp4">
         </video>
 
         <br>
-        <br>
-
-        <h2 class="title is-5" style="text-align: center;">(2) In-the-Wild Images
-        </h2>
-
+        
     </div>
 
     <br>
@@ -143,7 +153,7 @@
                         <div class="content has-text-justified">
 
                             <div class="hero-body" style="margin-top: 40px; margin-bottom: -30px;">
-                                <img id="overview" width="93%" src="./img/pipeline.png" />
+                                <img id="overview" width="95%" src="./img/pipeline.png" />
                             </div>
                             Given an input image and a prompt, it generates a desired robotic
                             manipulation video with the collaborative trajectory design. Specifically, it
